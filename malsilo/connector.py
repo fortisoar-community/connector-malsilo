@@ -1,9 +1,3 @@
-""" Copyright start
-  Copyright (C) 2008 - 2020 Fortinet Inc.
-  All rights reserved.
-  FORTINET CONFIDENTIAL & FORTINET PROPRIETARY SOURCE CODE
-  Copyright end """
-
 from connectors.core.connector import get_logger, Connector
 from .health_check import check
 from .get_feed import get_ipv4_feed, get_domain_feed, get_url_feed

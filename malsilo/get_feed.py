@@ -1,8 +1,3 @@
-""" Copyright start
-  Copyright (C) 2008 - 2020 Fortinet Inc.
-  All rights reserved.
-  FORTINET CONFIDENTIAL & FORTINET PROPRIETARY SOURCE CODE
-  Copyright end """
 from connectors.core.connector import get_logger, ConnectorError
 
 logger = get_logger('malsilo')
