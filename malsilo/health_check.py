@@ -2,6 +2,8 @@ from connectors.core.connector import get_logger, ConnectorError
 import requests
 logger = get_logger('malsilo')
 
+# test commit
+
 def raise_if_url_unreachable(url):
     site_ping = requests.head(url)
     if site_ping.status_code < 400:
